@@ -1,3 +1,10 @@
+// Codewars
+// Kata: Calculating with functions
+// https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39
+//
+// Solution by Kurt Lekanger
+// https://www.codewars.com/users/klekanger
+
 const zero = x => (x === undefined ? 0 : x(0));
 const one = x => (x === undefined ? 1 : x(1));
 const two = x => (x === undefined ? 2 : x(2));
@@ -13,7 +20,3 @@ const plus = nxtNum => num => num + nxtNum;
 const minus = nxtNum => num => num - nxtNum;
 const times = nxtNum => num => num * nxtNum;
 const dividedBy = nxtNum => num => Math.floor(num / nxtNum);
-
-console.log(seven(times(five())));
-console.log(three(dividedBy(nine())));
-console.log(seven(times(seven())));

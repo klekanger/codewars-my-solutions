@@ -1,3 +1,10 @@
+// Codewars
+// Kata: Nesting Structure Comparison
+// https://www.codewars.com/kata/520446778469526ec0000001
+//
+// Solution by Kurt Lekanger
+// https://www.codewars.com/users/klekanger
+
 Array.prototype.sameStructureAs = function(other) {
   if (this.length !== other.length) {
     return false;

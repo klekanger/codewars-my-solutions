@@ -1,3 +1,10 @@
+// Codewars
+// Kata: Sum of digits/digital root
+// https://www.codewars.com/kata/541c8630095125aba6000c00
+//
+// Solution by Kurt Lekanger
+// https://www.codewars.com/users/klekanger
+
 function digital_root(n) {
   let strNum = n.toString(),
     len = strNum.length,
@@ -9,5 +16,3 @@ function digital_root(n) {
 
   return len > 1 ? digital_root(sum) : sum;
 }
-
-console.log(digital_root(195));

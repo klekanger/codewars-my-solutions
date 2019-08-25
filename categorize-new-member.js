@@ -1,3 +1,18 @@
+// Codewars
+// Kata: Categorize New Member
+// https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
+//
+// Solution by Kurt Lekanger
+// https://www.codewars.com/users/klekanger
+
+function openOrSenior(data) {
+  return data.map(member => {
+    return member[0] >= 55 && member[1] > 7 ? "Senior" : "Open";
+  });
+}
+
+// Alternative solution
+//
 // function openOrSenior(data) {
 //   return data.map(member => {
 //     if (member[0] >= 55 && member[1] > 7) {
@@ -6,13 +21,3 @@
 //     return "Open";
 //   });
 // }
-
-function openOrSenior(data) {
-  return data.map(member => {
-    return member[0] >= 55 && member[1] > 7 ? "Senior" : "Open";
-  });
-}
-
-console.log(
-  openOrSenior([[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]])
-);

@@ -7,5 +7,3 @@ function isSortedAndHow(array) {
   }
   return "no";
 }
-
-console.log(isSortedAndHow(1, 2, 3, 4));

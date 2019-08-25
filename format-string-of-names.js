@@ -1,3 +1,10 @@
+// Codewars
+// Kata: Format a string of names like 'Bart, Lisa & Maggie'.
+// https://www.codewars.com/kata/53368a47e38700bd8300030d
+//
+// Solution by Kurt Lekanger
+// https://www.codewars.com/users/klekanger
+
 function list(names) {
   let nameList = "";
 
@@ -13,5 +20,3 @@ function list(names) {
     return nameList;
   }
 }
-
-console.log(list([{ name: "Bart" }]));

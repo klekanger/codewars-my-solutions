@@ -1,6 +1,10 @@
+// Codewars
+// Kata: Convert boolean values to strings 'Yes' or 'No'.
+// https://www.codewars.com/kata/53369039d7ab3ac506000467
+//
+// Solution by Kurt Lekanger
+// https://www.codewars.com/users/klekanger
+
 function boolToWord(bool) {
   return bool ? "Yes" : "No";
 }
-
-console.log(boolToWord(true));
-console.log(boolToWord(false));
