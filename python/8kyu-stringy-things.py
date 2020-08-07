@@ -4,6 +4,10 @@
 Created on Mon Oct 21 19:16:48 2019
 
 @author: kurtlekanger
+
+https://www.codewars.com/kata/563b74ddd19a3ad462000054/solutions/python
+
+
 """
 
 #def stringy(size):
